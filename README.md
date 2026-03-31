@@ -192,3 +192,20 @@ such as Great Expectations or Soda.
 
 In this module, validation is implemented manually to develop a
 clear understanding of structure, assumptions, and data quality.
+## My Technical Modification
+
+In this project, I implemented several enhancements to the original EVTL pipeline:
+
+- Created a custom configuration file (`config_sabri.py`) with personalized file paths and headers.
+- Added validation rules to ensure required keys (`userId`, `id`, `title`) exist in each JSON record.
+- Generated derived fields:
+  - `title_length`
+  - `body_length`
+- Applied filtering logic to keep only posts with meaningful titles (length > 20).
+- Calculated and logged the average body length of the filtered dataset.
+
+These changes improved data quality, enabled better analysis, and demonstrated real-world data processing techniques.
+
+### Key Insight
+
+Filtering posts by title length helped focus on more meaningful content, and the average body length provided insight into content depth across the dataset.
