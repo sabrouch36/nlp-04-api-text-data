@@ -293,3 +293,216 @@ shape: (5, 6)
 2026-03-31 01:28:46 | INFO | CI | ========================
 2026-03-31 01:28:46 | INFO | CI | Pipeline executed successfully!
 2026-03-31 01:28:46 | INFO | CI | ========================
+2026-03-31 23:45:11 | INFO | CI | === RUN START ===
+2026-03-31 23:45:11 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-03-31 23:45:11 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-03-31 23:45:11 | INFO | CI | python=3.14.0
+2026-03-31 23:45:11 | INFO | CI | os=Windows 11
+2026-03-31 23:45:11 | INFO | CI | shell=powershell
+2026-03-31 23:45:11 | INFO | CI | cwd=.
+2026-03-31 23:45:11 | INFO | CI | github_actions=False
+2026-03-31 23:45:11 | INFO | CI | START PIPELINE
+2026-03-31 23:45:11 | INFO | CI | ROOT_PATH = .
+2026-03-31 23:45:11 | INFO | CI | DATA_PATH = data
+2026-03-31 23:45:11 | INFO | CI | RAW_PATH = data\raw
+2026-03-31 23:45:11 | INFO | CI | PROCESSED_PATH = data\processed
+2026-03-31 23:45:11 | INFO | CI | ========================
+2026-03-31 23:45:11 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-03-31 23:45:11 | INFO | CI | ========================
+2026-03-31 23:50:01 | INFO | CI | === RUN START ===
+2026-03-31 23:50:01 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-03-31 23:50:01 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-03-31 23:50:01 | INFO | CI | python=3.14.0
+2026-03-31 23:50:01 | INFO | CI | os=Windows 11
+2026-03-31 23:50:01 | INFO | CI | shell=powershell
+2026-03-31 23:50:01 | INFO | CI | cwd=.
+2026-03-31 23:50:01 | INFO | CI | github_actions=False
+2026-03-31 23:50:01 | INFO | CI | START PIPELINE
+2026-03-31 23:50:01 | INFO | CI | ROOT_PATH = .
+2026-03-31 23:50:01 | INFO | CI | DATA_PATH = data
+2026-03-31 23:50:01 | INFO | CI | RAW_PATH = data\raw
+2026-03-31 23:50:01 | INFO | CI | PROCESSED_PATH = data\processed
+2026-03-31 23:50:01 | INFO | CI | ========================
+2026-03-31 23:50:01 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-03-31 23:50:01 | INFO | CI | ========================
+2026-03-31 23:50:04 | INFO | CI | SOURCE PATH = https://dummyjson.com/products
+2026-03-31 23:50:04 | INFO | CI | SINK PATH = data\raw\sabri_raw.json
+2026-03-31 23:50:04 | INFO | CI | ========================
+2026-03-31 23:50:04 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-03-31 23:50:04 | INFO | CI | ========================
+2026-03-31 23:50:04 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-03-31 23:50:04 | INFO | CI | Top-level type: dict
+2026-04-01 00:01:35 | INFO | CI | === RUN START ===
+2026-04-01 00:01:35 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-01 00:01:35 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-04-01 00:01:35 | INFO | CI | python=3.14.0
+2026-04-01 00:01:35 | INFO | CI | os=Windows 11
+2026-04-01 00:01:35 | INFO | CI | shell=powershell
+2026-04-01 00:01:35 | INFO | CI | cwd=.
+2026-04-01 00:01:35 | INFO | CI | github_actions=False
+2026-04-01 00:01:35 | INFO | CI | START PIPELINE
+2026-04-01 00:01:35 | INFO | CI | ROOT_PATH = .
+2026-04-01 00:01:35 | INFO | CI | DATA_PATH = data
+2026-04-01 00:01:35 | INFO | CI | RAW_PATH = data\raw
+2026-04-01 00:01:35 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-01 00:01:35 | INFO | CI | ========================
+2026-04-01 00:01:35 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-01 00:01:35 | INFO | CI | ========================
+2026-04-01 00:01:35 | INFO | CI | SOURCE PATH = https://dummyjson.com/products
+2026-04-01 00:01:35 | INFO | CI | SINK PATH = data\raw\sabri_raw.json
+2026-04-01 00:01:35 | INFO | CI | ========================
+2026-04-01 00:01:35 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-01 00:01:35 | INFO | CI | ========================
+2026-04-01 00:01:35 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-01 00:01:35 | INFO | CI | Top-level type: dict
+2026-04-01 00:06:37 | INFO | CI | === RUN START ===
+2026-04-01 00:06:37 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-01 00:06:37 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-04-01 00:06:37 | INFO | CI | python=3.14.0
+2026-04-01 00:06:37 | INFO | CI | os=Windows 11
+2026-04-01 00:06:37 | INFO | CI | shell=powershell
+2026-04-01 00:06:37 | INFO | CI | cwd=.
+2026-04-01 00:06:37 | INFO | CI | github_actions=False
+2026-04-01 00:06:37 | INFO | CI | START PIPELINE
+2026-04-01 00:06:37 | INFO | CI | ROOT_PATH = .
+2026-04-01 00:06:37 | INFO | CI | DATA_PATH = data
+2026-04-01 00:06:37 | INFO | CI | RAW_PATH = data\raw
+2026-04-01 00:06:37 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-01 00:06:37 | INFO | CI | ========================
+2026-04-01 00:06:37 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-01 00:06:37 | INFO | CI | ========================
+2026-04-01 00:06:43 | INFO | CI | SOURCE PATH = https://dummyjson.com/products
+2026-04-01 00:06:43 | INFO | CI | SINK PATH = data\raw\sabri_raw.json
+2026-04-01 00:06:43 | INFO | CI | ========================
+2026-04-01 00:06:43 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-01 00:06:43 | INFO | CI | ========================
+2026-04-01 00:06:43 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-01 00:06:43 | INFO | CI | Top-level type: dict
+2026-04-01 00:09:32 | INFO | CI | === RUN START ===
+2026-04-01 00:09:32 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-01 00:09:32 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-04-01 00:09:32 | INFO | CI | python=3.14.0
+2026-04-01 00:09:32 | INFO | CI | os=Windows 11
+2026-04-01 00:09:32 | INFO | CI | shell=powershell
+2026-04-01 00:09:32 | INFO | CI | cwd=.
+2026-04-01 00:09:32 | INFO | CI | github_actions=False
+2026-04-01 00:09:32 | INFO | CI | START PIPELINE
+2026-04-01 00:09:32 | INFO | CI | ROOT_PATH = .
+2026-04-01 00:09:32 | INFO | CI | DATA_PATH = data
+2026-04-01 00:09:32 | INFO | CI | RAW_PATH = data\raw
+2026-04-01 00:09:32 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-01 00:09:32 | INFO | CI | ========================
+2026-04-01 00:09:32 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-01 00:09:32 | INFO | CI | ========================
+2026-04-01 00:09:33 | INFO | CI | SOURCE PATH = https://dummyjson.com/products
+2026-04-01 00:09:33 | INFO | CI | SINK PATH = data\raw\sabri_raw.json
+2026-04-01 00:09:33 | INFO | CI | ========================
+2026-04-01 00:09:33 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-01 00:09:33 | INFO | CI | ========================
+2026-04-01 00:09:33 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-01 00:09:33 | INFO | CI | Top-level type: list
+2026-04-01 00:09:33 | INFO | CI | Keys in first record: ['id', 'title', 'description', 'category', 'price', 'discountPercentage', 'rating', 'stock', 'tags', 'brand', 'sku', 'weight', 'dimensions', 'warrantyInformation', 'shippingInformation', 'availabilityStatus', 'reviews', 'returnPolicy', 'minimumOrderQuantity', 'meta', 'images', 'thumbnail']
+2026-04-01 00:09:33 | INFO | CI | Field types:
+2026-04-01 00:09:33 | INFO | CI | id: int
+2026-04-01 00:09:33 | INFO | CI | title: str
+2026-04-01 00:09:33 | INFO | CI | description: str
+2026-04-01 00:09:33 | INFO | CI | category: str
+2026-04-01 00:09:33 | INFO | CI | price: float
+2026-04-01 00:09:33 | INFO | CI | discountPercentage: float
+2026-04-01 00:09:33 | INFO | CI | rating: float
+2026-04-01 00:09:33 | INFO | CI | stock: int
+2026-04-01 00:09:33 | INFO | CI | tags: list
+2026-04-01 00:09:33 | INFO | CI | brand: str
+2026-04-01 00:09:33 | INFO | CI | sku: str
+2026-04-01 00:09:33 | INFO | CI | weight: int
+2026-04-01 00:09:33 | INFO | CI | dimensions: dict
+2026-04-01 00:09:33 | INFO | CI | warrantyInformation: str
+2026-04-01 00:09:33 | INFO | CI | shippingInformation: str
+2026-04-01 00:09:33 | INFO | CI | availabilityStatus: str
+2026-04-01 00:09:33 | INFO | CI | reviews: list
+2026-04-01 00:09:33 | INFO | CI | returnPolicy: str
+2026-04-01 00:09:33 | INFO | CI | minimumOrderQuantity: int
+2026-04-01 00:09:33 | INFO | CI | meta: dict
+2026-04-01 00:09:33 | INFO | CI | images: list
+2026-04-01 00:09:33 | INFO | CI | thumbnail: str
+2026-04-01 00:09:33 | INFO | CI | Validation passed.
+2026-04-01 00:09:33 | INFO | CI | Sink: validated JSON object
+2026-04-01 00:09:33 | INFO | CI | ========================
+2026-04-01 00:09:33 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-01 00:09:33 | INFO | CI | ========================
+2026-04-01 00:17:35 | INFO | CI | === RUN START ===
+2026-04-01 00:17:35 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-01 00:17:35 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-04-01 00:17:35 | INFO | CI | python=3.14.0
+2026-04-01 00:17:35 | INFO | CI | os=Windows 11
+2026-04-01 00:17:35 | INFO | CI | shell=powershell
+2026-04-01 00:17:35 | INFO | CI | cwd=.
+2026-04-01 00:17:35 | INFO | CI | github_actions=False
+2026-04-01 00:17:35 | INFO | CI | START PIPELINE
+2026-04-01 00:17:35 | INFO | CI | ROOT_PATH = .
+2026-04-01 00:17:35 | INFO | CI | DATA_PATH = data
+2026-04-01 00:17:35 | INFO | CI | RAW_PATH = data\raw
+2026-04-01 00:17:35 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-01 00:17:35 | INFO | CI | ========================
+2026-04-01 00:17:35 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-01 00:17:35 | INFO | CI | ========================
+2026-04-01 00:17:35 | INFO | CI | SOURCE PATH = https://dummyjson.com/products
+2026-04-01 00:17:35 | INFO | CI | SINK PATH = data\raw\sabri_raw.json
+2026-04-01 00:17:35 | INFO | CI | ========================
+2026-04-01 00:17:35 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-01 00:17:35 | INFO | CI | ========================
+2026-04-01 00:17:35 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-01 00:17:35 | INFO | CI | Top-level type: list
+2026-04-01 00:17:35 | INFO | CI | Keys in first record: ['id', 'title', 'description', 'category', 'price', 'discountPercentage', 'rating', 'stock', 'tags', 'brand', 'sku', 'weight', 'dimensions', 'warrantyInformation', 'shippingInformation', 'availabilityStatus', 'reviews', 'returnPolicy', 'minimumOrderQuantity', 'meta', 'images', 'thumbnail']
+2026-04-01 00:17:35 | INFO | CI | Field types:
+2026-04-01 00:17:35 | INFO | CI | id: int
+2026-04-01 00:17:35 | INFO | CI | title: str
+2026-04-01 00:17:35 | INFO | CI | description: str
+2026-04-01 00:17:35 | INFO | CI | category: str
+2026-04-01 00:17:35 | INFO | CI | price: float
+2026-04-01 00:17:35 | INFO | CI | discountPercentage: float
+2026-04-01 00:17:35 | INFO | CI | rating: float
+2026-04-01 00:17:35 | INFO | CI | stock: int
+2026-04-01 00:17:35 | INFO | CI | tags: list
+2026-04-01 00:17:35 | INFO | CI | brand: str
+2026-04-01 00:17:35 | INFO | CI | sku: str
+2026-04-01 00:17:35 | INFO | CI | weight: int
+2026-04-01 00:17:35 | INFO | CI | dimensions: dict
+2026-04-01 00:17:35 | INFO | CI | warrantyInformation: str
+2026-04-01 00:17:35 | INFO | CI | shippingInformation: str
+2026-04-01 00:17:35 | INFO | CI | availabilityStatus: str
+2026-04-01 00:17:35 | INFO | CI | reviews: list
+2026-04-01 00:17:35 | INFO | CI | returnPolicy: str
+2026-04-01 00:17:35 | INFO | CI | minimumOrderQuantity: int
+2026-04-01 00:17:35 | INFO | CI | meta: dict
+2026-04-01 00:17:35 | INFO | CI | images: list
+2026-04-01 00:17:35 | INFO | CI | thumbnail: str
+2026-04-01 00:17:35 | INFO | CI | Validation passed.
+2026-04-01 00:17:35 | INFO | CI | Sink: validated JSON object
+2026-04-01 00:17:35 | INFO | CI | ========================
+2026-04-01 00:17:35 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-01 00:17:35 | INFO | CI | ========================
+2026-04-01 00:17:35 | INFO | CI | Transformation complete.
+2026-04-01 00:17:35 | INFO | CI | DataFrame shape: (30, 8)
+2026-04-01 00:17:35 | INFO | CI | DataFrame preview:
+2026-04-01 00:17:35 | INFO | CI | 
+shape: (5, 8)
+┌─────┬───────────────────────────────┬───────┬──────────┬────────────────┬────────┬───────┬─────────────────────┐
+│ id  ┆ title                         ┆ price ┆ category ┆ brand          ┆ rating ┆ stock ┆ discount_percentage │
+│ --- ┆ ---                           ┆ ---   ┆ ---      ┆ ---            ┆ ---    ┆ ---   ┆ ---                 │
+│ i64 ┆ str                           ┆ f64   ┆ str      ┆ str            ┆ f64    ┆ i64   ┆ f64                 │
+╞═════╪═══════════════════════════════╪═══════╪══════════╪════════════════╪════════╪═══════╪═════════════════════╡
+│ 1   ┆ Essence Mascara Lash Princess ┆ 9.99  ┆ beauty   ┆ Essence        ┆ 2.56   ┆ 99    ┆ 10.48               │
+│ 2   ┆ Eyeshadow Palette with Mirror ┆ 19.99 ┆ beauty   ┆ Glamour Beauty ┆ 2.86   ┆ 34    ┆ 18.19               │
+│ 3   ┆ Powder Canister               ┆ 14.99 ┆ beauty   ┆ Velvet Touch   ┆ 4.64   ┆ 89    ┆ 9.84                │
+│ 4   ┆ Red Lipstick                  ┆ 12.99 ┆ beauty   ┆ Chic Cosmetics ┆ 4.36   ┆ 91    ┆ 12.16               │
+│ 5   ┆ Red Nail Polish               ┆ 8.99  ┆ beauty   ┆ Nail Couture   ┆ 4.32   ┆ 79    ┆ 11.44               │
+└─────┴───────────────────────────────┴───────┴──────────┴────────────────┴────────┴───────┴─────────────────────┘
+2026-04-01 00:17:35 | INFO | CI | Sink: Polars DataFrame created
+2026-04-01 00:17:35 | INFO | CI | ========================
+2026-04-01 00:17:35 | INFO | CI | STAGE 04: LOAD starting...
+2026-04-01 00:17:35 | INFO | CI | ========================
+2026-04-01 00:17:35 | INFO | CI | SINK PATH = data\processed\sabri_processed.csv
+2026-04-01 00:17:35 | INFO | CI | ========================
+2026-04-01 00:17:35 | INFO | CI | Pipeline executed successfully!
+2026-04-01 00:17:35 | INFO | CI | ========================

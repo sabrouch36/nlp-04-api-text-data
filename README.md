@@ -209,3 +209,37 @@ These changes improved data quality, enabled better analysis, and demonstrated r
 ### Key Insight
 
 Filtering posts by title length helped focus on more meaningful content, and the average body length provided insight into content depth across the dataset.
+
+ Phase 5. Apply the Skills to a New Problem
+
+ ## Sabri Product Data Pipeline (EVTL)
+
+###  Overview
+This project implements an EVTL pipeline to extract, validate, transform, and load product data from an external API into a structured CSV file.
+
+---
+
+### Data Source
+https://dummyjson.com/products
+
+---
+
+###  Pipeline Steps
+- **Extract:** Fetch JSON data from API
+- **Validate:** Handle nested structure (`products`) and verify required fields
+- **Transform:** Convert data into a structured DataFrame with key features
+- **Load:** Save results to CSV
+
+---
+
+###  Output
+- Raw data: `data/raw/sabri_raw.json`
+- Processed data: `data/processed/sabri_processed.csv`
+---
+
+###  Key Modifications
+- Adapted pipeline to a new API structure
+- Handled nested JSON (dict → list)
+- Extracted product features (price, category, rating, etc.)
+
+---

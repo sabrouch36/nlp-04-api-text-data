@@ -37,10 +37,6 @@ Then edit your copied Python file to:
 import logging
 from typing import Any
 
-# ============================================================
-# Section 2. Define Run Validate Function
-# ============================================================
-
 
 def run_validate(
     json_data: Any,
@@ -51,9 +47,9 @@ def run_validate(
     LOG.info("STAGE 02: VALIDATE starting...")
     LOG.info("========================")
 
-    # ============================================================
-    # INSPECT JSON STRUCTURE
-    # ============================================================
+    # Handle DummyJSON structure
+    if isinstance(json_data, dict):
+        json_data = json_data.get("products", [])
 
     LOG.info("JSON STRUCTURE INSPECTION:")
     LOG.info(f"Top-level type: {type(json_data).__name__}")
@@ -67,10 +63,6 @@ def run_validate(
         for key, value in first_record.items():
             LOG.info(f"{key}: {type(value).__name__}")
 
-    # ============================================================
-    # VALIDATE EXPECTATIONS
-    # ============================================================
-
     if not isinstance(json_data, list):
         raise ValueError("Expected JSON data to be a list of records.")
 
@@ -80,11 +72,7 @@ def run_validate(
     if not all(isinstance(record, dict) for record in json_data):
         raise ValueError("Expected each record to be a dictionary.")
 
-    # ============================================================
-    # ADDITIONAL VALIDATION (Sabri Modification)
-    # ============================================================
-
-    required_keys = {"userId", "id", "title"}
+    required_keys = {"title", "price", "category"}
 
     for record in json_data:
         if not required_keys.issubset(record.keys()):

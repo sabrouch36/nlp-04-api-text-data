@@ -34,17 +34,12 @@ Then edit your copied Python file to:
 # ============================================================
 
 import logging
-from typing import Any
 
 import polars as pl
 
-# ============================================================
-# Section 2. Define Run Transform Function
-# ============================================================
-
 
 def run_transform(
-    json_data: list[dict[str, Any]],
+    json_data: list[dict],
     LOG: logging.Logger,
 ) -> pl.DataFrame:
 
@@ -52,42 +47,27 @@ def run_transform(
     LOG.info("STAGE 03: TRANSFORM starting...")
     LOG.info("========================")
 
-    records: list[dict[str, Any]] = []
+    records = []
 
     for record in json_data:
-        records.append(
-            {
-                "user_id": record["userId"],
-                "post_id": record["id"],
-                "title": record["title"],
-                "body": record["body"],
-            }
-        )
+        item = {
+            "id": record.get("id"),
+            "title": record.get("title"),
+            "price": record.get("price"),
+            "category": record.get("category"),
+            "brand": record.get("brand"),
+            "rating": record.get("rating"),
+            "stock": record.get("stock"),
+            "discount_percentage": record.get("discountPercentage"),
+        }
+        records.append(item)
 
-    df: pl.DataFrame = pl.DataFrame(records)
-
-    # Derived fields
-    df = df.with_columns(
-        [
-            pl.col("title").str.len_chars().alias("title_length"),
-            pl.col("body").str.len_chars().alias("body_length"),
-        ]
-    )
-
-    # ============================================================
-    # Sabri Modification: Filter + Summary
-    # ============================================================
-
-    # Filter posts with meaningful titles
-    df = df.filter(pl.col("title_length") > 20)
-
-    # Calculate average body length
-    avg_body_length = df["body_length"].mean()
-
-    LOG.info(f"Average body length: {avg_body_length}")
+    df = pl.DataFrame(records)
 
     LOG.info("Transformation complete.")
-    LOG.info(f"DataFrame preview:\n{df.head()}")
+    LOG.info(f"DataFrame shape: {df.shape}")
+    LOG.info("DataFrame preview:")
+    LOG.info(f"\n{df.head(5)}")
     LOG.info("Sink: Polars DataFrame created")
 
     return df
